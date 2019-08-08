@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "home-banner-comp": "../home-comp/home-banner-comp/home-banner-comp",
+    "home-recommend": "/app/home/home-comp/home-recommend/home-recommend",
+    "home-feature": "/app/home/home-comp/home-feature/home-feature",
+    "home-tab": "/app/home/home-comp/home-tab/home-tab",
+    "home-goods": "/app/home/home-comp/home-goods/home-goods"
+  },
+  "navigationBarTitleText": "iGola机票比价"
+}

@@ -1,0 +1,10 @@
+
+<!-- 推荐 -->
+<view class="box">
+ <block wx:for="{{recommends}}" wx:key="{{index}}">
+  <view class="container" bindtap='clickRecommendImg' data-index='{{index}}'>
+    <image class='recommend-img' src='{{item.image}}'/>
+    <view class='recommend-title'><text>{{item.title}}</text></view>
+  </view> 
+ </block>
+</view>

@@ -1,0 +1,7 @@
+
+<!-- 本周流行 -->
+<view class='feature'>
+  <image class="recommend_bg"
+         src='/app/asset/home/recommend_bg.jpg' 
+         mode='widthFix' bindtap='handlerImg'/>
+</view>

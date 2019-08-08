@@ -1,0 +1,17 @@
+
+<!-- 轮播图 -->
+<swiper indicator-dots='true' 
+        indicator-active-color='#ff5777'
+        autoplay='true'
+        circular='true'
+        interval='3000'
+        class='swiper'>
+  <block wx:for="{{data}}" wx:key="{{index}}">
+    <swiper-item>
+      <image class="swiper-img" 
+             src='{{item}}' mode="widthFix" 
+             bindtap='bannerClick' 
+             data-index='{{index}}'/>
+    </swiper-item>  
+  </block>
+</swiper>

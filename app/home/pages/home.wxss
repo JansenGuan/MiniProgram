@@ -1,0 +1,9 @@
+/* app/home/pages/home.wxss */
+.container{
+  width: 100%;
+}
+
+.scorllview{
+  height: 100%;
+}
+

@@ -1,0 +1,14 @@
+<view class='container'>
+      <image class='img' 
+             src='{{good_item.image || good_item.img || good_item.show.img}}'
+             mode='widthFix'/>
+
+      <view class='desc-info'>
+        <view class='title'>{{good_item.title}}</view>
+        <view class='info'>
+          <text class='price'>¥ {{good_item.price}}</text>
+          <image class="favor" src='/app/asset/home/favor.png' />
+          <text class='cfav'>{{good_item.cfav}}</text>
+        </view>
+      </view>
+</view>

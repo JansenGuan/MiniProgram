@@ -1,0 +1,29 @@
+
+<view class='container'>
+
+  <scroll-view class='scorllview'
+             scroll-y = '{{true}}'
+             
+             bindscrolltolower="loadMoreData"
+             bindscroll="scrollDidScroll">
+    <!-- 轮播图 -->
+    <home-banner-comp data='{{bannerData}}'
+                      bind:handlerBannerImg="selectedBannerWithIndex"/>
+
+    <!-- 推荐 -->
+    <home-recommend recommends="{{recommends}}" 
+                    bind:recommendDidSelected="handlerRecommendSelectedIndex"/>
+
+    <!-- 本周流行 -->
+    <home-feature bind:imgDidClick="handlerFeatureImageClick"/>
+
+    <!-- 流行、新款、精选 -->
+    <home-tab class='home-tab' 
+              titles='{{tabTitles}}' 
+               bind:tabSelected='handlerSelectedTab' />
+
+    <!-- 商品 -->
+    <home-goods goods='{{goods[currentType].list}}'/>
+
+  </scroll-view>
+</view>

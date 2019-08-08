@@ -1,0 +1,9 @@
+/* app/home/home-comp/home-banner-comp/home-banner-comp.wxss */
+
+.swiper{
+  height: 360rpx
+}
+
+.swiper-img{
+  width: 100%
+}

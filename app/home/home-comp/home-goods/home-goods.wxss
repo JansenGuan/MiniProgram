@@ -1,0 +1,23 @@
+/* .good{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10rpx;
+}
+
+.good-item{
+  width: 48%;
+  position: relative;
+} */
+
+.good{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10rpx;
+}
+
+.good-item{
+  width: 48%;
+  position: relative;
+}
